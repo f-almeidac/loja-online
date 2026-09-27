@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Loja Online - Campanha Black Friday
-=======
-# Loja Online - Campanha Natal
->>>>>>> feature/natal
+# Loja Online - Título para a campanha de frete
 
 ## Contato
 Dúvidas: contato@loja.com.br
