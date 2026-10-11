@@ -3,16 +3,16 @@ const assert = require('node:assert');
 const { calcularTotalCarrinho } = require('./carrinho');
 
 test('calcula o total do carrinho corretamente', () => {
-    const itens = [
-        { nome: 'Camiseta', preco: 50, quantidade: 2 },
-        { nome: 'Boné', preco: 30, quantidade: 1 },
-    ];
+  const itens = [
+    { nome: 'Camiseta', preco: 50, quantidade: 2 },
+    { nome: 'Boné', preco: 30, quantidade: 1 },
+  ];
 
-    const total = calcularTotalCarrinho(itens);
+  const total = calcularTotalCarrinho(itens);
 
-    assert.strictEqual(total, 130);
+  assert.strictEqual(total, 130);
 });
 
-test('Carrinho vazio soma zero', () => {
-    assert.strictEqual(calcularTotalCarrinho([]), 0);
-})
+test('carrinho vazio soma zero', () => {
+  assert.strictEqual(calcularTotalCarrinho([]), 0);
+});
